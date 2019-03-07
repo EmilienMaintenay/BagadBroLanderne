@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
         <meta name="author" content="">
-        <title>Bagad Bro Landerne</title>
+        <title><?php echo get_bloginfo( 'name' ); ?></title>
         <!– CSS de Bootstrap –>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <!– Ajout d’une nouvelle feuille de style qui sera spécifique à notre thème –>
@@ -20,10 +20,6 @@
     </head>
     <body>
         <div class="header">
-            <img id="logo" src="http://localhost/BagadBroLanderne/wordpress/wp-content/themes/BagadLanderne/Images/logo_BBL_FondBlanc.png">
+            <a href="<?php echo get_bloginfo( 'wpurl' );?>"><img id="logo" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_BBL_FondBlanc.png" style="width:auto; height:200px; display: block;margin-left: auto;margin-right: auto;"></a>
         </div>
         <div class="container">
-            <div class="blog-header">
-                <h1 class="blog-title"><a href="<?php echo get_bloginfo( ‘wpurl’ );?>"><?php echo get_bloginfo( ‘name’ ); ?></a></h1>
-                <p class="lead blog-description"><?php echo get_bloginfo( ‘description’ ); ?></p>
-            </div>
