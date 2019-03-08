@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
 	<div class="row">
-
+        <div class="col-sm-2" style="background-color:black; margin-left:-150px;">
+            <div class="sidebar-module sidebar-module-inset">
+                <?php wp_nav_menu ( array ('theme_location' => 'navigation' ,'menu_class' => 'my-navigation') ); ?>
+            </div> 
+        </div><!– /.blog-sidebar –>
 		<div class="col-sm-8 blog-main">
 
 			<?php 
@@ -13,7 +17,7 @@
 			?>
 
 		</div> <!-- /.blog-main -->
-
+        
 		<?php get_sidebar(); ?>
 
 	</div> <!-- /.row -->
