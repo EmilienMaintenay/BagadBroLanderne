@@ -8,7 +8,24 @@ Tags: bootstrap
 */
 
 #logo{
-    width: 200px; 
-    height: 200px;
+    width:auto; 
+    height:200px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-navigation{
+    margin-top: 10px;
+}
+
+.my-navigation li{
+    color: orange;
+    padding: 10px 10px 0 10px;
+}
+
+.my-navigation li a:hover{
+    color: orange;
+    border-bottom: solid 2px black;
 }
 [/css]
