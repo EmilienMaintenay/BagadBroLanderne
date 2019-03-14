@@ -18,7 +18,7 @@
         <![endif]–>
         <?php wp_head();?>
     </head>
-    <body>
+    <body style="background-color:black">
         <div class="header">
             <a href="<?php echo get_bloginfo( 'wpurl' );?>"><img id="logo" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_BBL_FondBlanc.png" style="width:auto; height:200px; display: block;margin-left: auto;margin-right: auto;"></a>
         </div>
