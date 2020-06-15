@@ -6,7 +6,7 @@
                 <?php wp_nav_menu ( array ('theme_location' => 'navigation' ,'menu_class' => 'my-navigation') ); ?>
             </div> 
         </div><!– /.blog-sidebar –>
-		<div class="col-sm-8 blog-main">
+		<div class="col-sm-8 blog-main" >
 
 			<?php 
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
